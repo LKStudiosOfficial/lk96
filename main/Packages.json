@@ -1,0 +1,33 @@
+[
+    {
+        "name": "wail",
+        "friendlyName": "Wail",
+        "description": "A simple communication service.",
+        "author": "LKStudios (hoster) <https://gameswin96.lucask12.repl.co/> | Kelbaz (developer) <https://kodbaz.github.io/en>",
+        "category": "social",
+        "version": 1.0,
+        "feature_requirements": [],
+        "min_os_version": 2.2776,
+        "max_os_version": 9999,
+        "depends": [],
+        "iconFiles": {
+            "32x32": "$REPO_PATH$/dist/w/wail/icon32.png",
+            "16x16": "$REPO_PATH$/dist/w/wail/icon16.png"
+        },
+        "packageRoot": "$REPO_PATH$/dist/w/wail"
+    },
+      "friendlyName": "Swirl Messaging",
+      "description": "An alternative messaging platform for Windows 96.",
+      "author": "LKStudios (hoster/tester/minor dev) <https://gameswin96.lucask12.repl.co/> | Kelbaz (dev) <https://kodbaz.github.io/en>",
+      "category": "social",
+      "version": 1.0,
+      "feature_requirements": [],
+      "min_os_version": 300001,
+      "max_os_version": 400000,
+      "depends": []
+      "iconFiles": {
+        "32x32": "$REPO_PATH$/dist/sm/icon32.png",
+        "16x16": "$REPO_PATH$/dist/sm/icon16.png"
+      },
+      "packageRoot": "$REPO_PATH$/dist/sm"
+]
