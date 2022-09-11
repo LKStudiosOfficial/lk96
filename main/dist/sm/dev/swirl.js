@@ -1,8 +1,8 @@
-//!wrt $BSPEC:{"icn":"apps/explorer","cpr":"Copyright (C) Windows 96 Team 2021.","dsc":"System File Explorer","frn":"Explorer","ver":1}
+//!wrt $BSPEC:{"icn":"mime/exec","cpr":"LK Studios","dsc":"A message app","frn":"Swirl","ver":1}
 
 const { Theme } = w96.ui;
 
-class GUIApplication extends WApplication {
+class SwirlApp extends WApplication {
     /**
      * Application constructor.
      */
@@ -37,9 +37,11 @@ class GUIApplication extends WApplication {
         let body = mainwnd.getBodyContainer();
         
         // Change the body HTML
-        body.innerHTML = "Changed";
+        // body.innerHTML = "Changed";
 
         // Show the window
         mainwnd.show();
     }
 }
+
+return await WApplication.execAsync(new SwirlApp(), this.boxedEnv.args);
