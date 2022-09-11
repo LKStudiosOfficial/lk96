@@ -16,6 +16,7 @@
         },
         "packageRoot": "$REPO_PATH$/dist/w/wail"
     },
+    {
       "friendlyName": "Swirl Messaging",
       "description": "An alternative messaging platform for Windows 96.",
       "author": "LKStudios (hoster/tester/minor dev) <https://gameswin96.lucask12.repl.co/> | Kelbaz (dev) <https://kodbaz.github.io/en>",
@@ -24,10 +25,11 @@
       "feature_requirements": [],
       "min_os_version": 300001,
       "max_os_version": 400000,
-      "depends": []
+      "depends": [],
       "iconFiles": {
         "32x32": "$REPO_PATH$/dist/sm/icon32.png",
         "16x16": "$REPO_PATH$/dist/sm/icon16.png"
       },
       "packageRoot": "$REPO_PATH$/dist/sm"
+    }
 ]
